@@ -401,6 +401,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# Shim
+PRODUCT_PACKAGES += \
+    libwatermark_shim
+
 # Telephony
 PRODUCT_PACKAGES += \
     ims-ext-common \
