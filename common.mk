@@ -16,6 +16,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/developer_gsi_keys.mk)
 # Setup dalvik vm configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 
+# MiuiCamera
+ifeq ($(SHIP_ANX), true)
+$(call inherit-product, vendor/xiaomi/miuicamera/config.mk)
+endif
+
 # Enforce native interfaces of product partition as VNDK
 PRODUCT_PRODUCT_VNDK_VERSION := current
 
