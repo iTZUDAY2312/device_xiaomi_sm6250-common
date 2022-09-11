@@ -633,16 +633,6 @@
     <!-- Control whether the always on display mode is enabled by default. This value will be used
          during initialization when the setting is still null. -->
     <bool name="config_dozeAlwaysOnEnabled">false</bool>    
- 
-     <!-- Whether the device supports Smart Pixels -->
-    <bool name="config_enableSmartPixels">true</bool>
-
-     <!-- Whether to show min/max refresh rate in display settings -->
-    <bool name="config_show_refresh_rate_controls">true</bool>
-    <bool name="config_supports_dynamic_refresh_rate_controls">true</bool>
-
-    <!-- Pocket Lock -->
-    <bool name="config_pocketModeSupported">true</bool>
 
     <!-- Flashlight on power button -->
     <integer name="config_flashlightProximityTimeout">3000</integer>
