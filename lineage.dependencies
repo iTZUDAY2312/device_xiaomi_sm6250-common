@@ -22,5 +22,11 @@
     "target_path": "vendor/xiaomi/miuicamera",
     "branch": "12.1",
     "remote": "github"
+  },
+  {
+    "repository": "iTZUDAY2312/android_packages_apps_GCamGoPrebuilt",
+    "target_path": "packages/apps/GraphCamv47",
+    "branch":"arrow-13.0",
+    "remote":"github"
   }
 ]
