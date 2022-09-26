@@ -38,6 +38,9 @@ while [ "${#}" -gt 0 ]; do
         * )
                 SRC="${1}"
                 ;;
+vendor/lib64/camera/components/com.qti.node.watermark.so)
+    "${PATCHELF}" --add-needed "libwatermark_shim.so" "${2}"
+    ;;
     esac
     shift
 done
