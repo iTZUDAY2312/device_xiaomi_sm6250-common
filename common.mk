@@ -152,10 +152,7 @@ PRODUCT_PACKAGES += \
     gralloc.atoll \
     hwcomposer.atoll \
     libdisplayconfig.qti \
-<<<<<<< HEAD
-=======
     libdisplayconfig.system.qti \
->>>>>>> 89443d6 (sm6250-common: Update blobs from V13.0.2.0.SJWMIXM)
     libqdMetaData \
     libqdMetaData.system \
     libsdmcore \
