@@ -186,11 +186,7 @@ OVERRIDE_RS_DRIVER := libRSDriver_adreno.so
 ENABLE_VENDOR_RIL_SERVICE := true
 
 # Security patch level
-<<<<<<< HEAD
-VENDOR_SECURITY_PATCH := 2021-06-01
-=======
 VENDOR_SECURITY_PATCH := 2022-06-05
->>>>>>> 89443d6 (sm6250-common: Update blobs from V13.0.2.0.SJWMIXM)
 
 # Sepolicy
 include device/qcom/sepolicy_vndr/SEPolicy.mk
